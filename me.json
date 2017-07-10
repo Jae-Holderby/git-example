@@ -1,0 +1,28 @@
+{
+  "first-name": "Jae",
+  "last-name": "Holderby",
+  "description": "Very attractive",
+  "pets": [
+    {
+      "name": "Loki",
+      "color": "Black & White",
+      "kind": "dog"
+    }
+  ],
+  "Siblings": [
+    {
+      "name": "Joe"
+    },
+    {
+      "name": "Jon"
+    },
+    {
+      "name": "Jordan"
+    }
+  ],
+  "Favorites": {
+    "color": "Blue",
+    "animal": "Gorrila",
+    "food": "Steak"
+  }
+}
