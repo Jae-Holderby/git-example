@@ -1,6 +1,7 @@
 var express = require('express')
 var server = express()
 var jae = require('./me.json')
+var port = process.env.PORT||8080
 
 server.get('/', function (request, response) {
   response.send("I did it!")
