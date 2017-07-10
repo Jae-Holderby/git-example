@@ -1,7 +1,7 @@
 var express = require('express')
 var server = express()
 var jae = require('./me.json')
-var port = process.env.PORT||8080
+var port = process.env.PORT || 8080
 
 server.get('/', function (request, response) {
   response.send("I did it!")
@@ -24,4 +24,4 @@ server.get('*', function (request, response) {
   response.send("<img src='https://media.giphy.com/media/DGrIBb99B574A/giphy.gif'>")
 })
 
-server.listen(8080)
+server.listen(port)
